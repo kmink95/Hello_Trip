@@ -42,9 +42,17 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		2D3C12C51FC5826A00F0D99B /* Test2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test2;
+			sourceTree = "<group>";
+		};
 		2DA34D991FBDE28100876BF5 = {
 			isa = PBXGroup;
 			children = (
+				2D3C12C51FC5826A00F0D99B /* Test2 */,
 				2D3C12C41FC57DCA00F0D99B /* Test */,
 				2DA34DA41FBDE28100876BF5 /* HelloTrip */,
 				2DA34DA31FBDE28100876BF5 /* Products */,

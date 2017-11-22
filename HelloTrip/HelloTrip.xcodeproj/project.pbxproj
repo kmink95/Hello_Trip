@@ -35,6 +35,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D3C12BD1FC57AD100F0D99B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D3C12BE1FC57AD500F0D99B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2DA34DAE1FBDE28100876BF5 /* LaunchScreen.storyboard */,
+				2DA34DA91FBDE28100876BF5 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2D3C12BF1FC57AD800F0D99B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2D3C12C01FC57ADD00F0D99B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2D3C12C11FC57B0F00F0D99B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D3C12C21FC57B1400F0D99B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DA34DA71FBDE28100876BF5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2DA34D991FBDE28100876BF5 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +99,14 @@
 		2DA34DA41FBDE28100876BF5 /* HelloTrip */ = {
 			isa = PBXGroup;
 			children = (
+				2D3C12C21FC57B1400F0D99B /* Controller */,
+				2D3C12C11FC57B0F00F0D99B /* View */,
+				2D3C12C01FC57ADD00F0D99B /* Extensions */,
+				2D3C12BF1FC57AD800F0D99B /* Resources */,
+				2D3C12BE1FC57AD500F0D99B /* Storyboard */,
+				2D3C12BD1FC57AD100F0D99B /* Model */,
 				2DA34DA51FBDE28100876BF5 /* AppDelegate.swift */,
-				2DA34DA71FBDE28100876BF5 /* ViewController.swift */,
-				2DA34DA91FBDE28100876BF5 /* Main.storyboard */,
 				2DA34DAC1FBDE28100876BF5 /* Assets.xcassets */,
-				2DA34DAE1FBDE28100876BF5 /* LaunchScreen.storyboard */,
 				2DA34DB11FBDE28100876BF5 /* Info.plist */,
 			);
 			path = HelloTrip;
